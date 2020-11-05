@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Calculator</title>
@@ -21,9 +21,13 @@
       <div class="calculator">
         <input class="calculator__display" placeholder="0"></input>
         <div class="calculator__keys">
+          <button data-key="power" data-type="operator">^</button>
+          <button data-key="rightbracket" data-type="operator">(</button>
+          <button data-key="leftbracket" data-type="operator">)</button>
+          <button data-key="erase" data-type="erase"><=</button>
           <button data-key="plus" data-type="operator">+</button>
           <button data-key="minus" data-type="operator">-</button>
-          <button data-key="times" data-type="operator">&times;</button>
+          <button data-key="times" data-type="operator">×</button>
           <button data-key="divide" data-type="operator">÷</button>
           <button data-key="1" data-type="number">1</button>
           <button data-key="2" data-type="number">2</button>
